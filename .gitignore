@@ -1,0 +1,24 @@
+# Variables de entorno — nunca commitear
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Credenciales GCP
+*.json
+application_default_credentials.json
+
+# Zone identifiers de Windows
+*Zone.Identifier
+
+# VS Code
+.vscode/

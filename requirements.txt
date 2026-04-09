@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────
+# Google Cloud
+# ─────────────────────────────────────────────
+google-cloud-bigquery==3.25.0        # BigQuery client
+google-cloud-bigquery-storage==2.25.0 # Lectura rápida vía Storage API
+google-cloud-storage==2.18.2         # GCS (útil para staging de archivos grandes)
+db-dtypes==1.3.1                     # Tipos de datos compatibles con BigQuery
+
+# ─────────────────────────────────────────────
+# Data processing
+# ─────────────────────────────────────────────
+pandas==2.2.2                        # Manipulación y lectura de CSV (Python 3.12 compatible)
+pyarrow==16.1.0                      # Serialización eficiente (requerido por BQ client)
+
+# ─────────────────────────────────────────────
+# Utilidades
+# ─────────────────────────────────────────────
+python-dotenv==1.0.0                 # Variables de entorno desde archivo .env
+tqdm==4.66.1                         # Barra de progreso al procesar múltiples archivos
